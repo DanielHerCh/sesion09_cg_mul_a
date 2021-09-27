@@ -61,7 +61,7 @@ function init() {
       Cubo[i].position.set(0, i*4+4, 0);
       Cubo[i].position.copy(0, i*4+4,0);
       Cubo.matrixAutoUpdate=false;
-      Cubo[i].position.set(i*4+4,i*4+4,0);
+      Cubo[i].translate3d(0, i*4+4, 0);
       Cubo.updateMatrix();
     }
 
