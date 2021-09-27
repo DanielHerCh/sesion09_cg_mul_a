@@ -1,0 +1,2 @@
+La información recogida para hacer la translación fue tomada del siguiente enlace:
+https://threejs.org/docs/#manual/en/introduction/Matrix-transformations

@@ -59,6 +59,10 @@ function init() {
     for (i=0; i < 5; i++){
       Cubo.push(cubo(4, 4, 4, 0xFFDD00, 'Physical', false));
       Cubo[i].position.set(0, i*4+4, 0);
+      Cubo[i].position.copy(0, i*4+4,0);
+      Cubo.matrixAutoUpdate=false;
+      Cubo[i].position.set(i*4+4,i*4+4,0);
+      Cubo.updateMatrix();
     }
 
     //Luz (requerida para el material MeshLambertMaterial)
